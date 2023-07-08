@@ -5,7 +5,7 @@ html {
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    margin: 0px; 
+    margin: 0; 
     height: 100vh;
     width: 100wh;
     display: flex;
@@ -169,17 +169,15 @@ img {
  }
 
  .content-four-content {
-    padding: 64px;
-    margin: 60px;
+    padding: 20px 100px;
+    margin: 50px 200px;
     display: flex;
+    align-items: center;
     background-color: #3882F6;
     color: white;
     justify-content: space-evenly;
     text-align: left;
-    gap: 32px;
-    border-radius: 10px;
-    max-width: 800px;
-    max-height: 1000px;
+    border-radius: 5px;
  }
 
  .content-four-content-left {
