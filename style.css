@@ -1,5 +1,24 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    height: 160lvh;
+
+}
+
+
 .content-one {
     background-color: #1F2937;
+
+}
+
+.content-one-content {
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    padding: 8px;
+    padding-bottom: 32px;
+    margin: 8px;
+
+    
 }
 
 .content-one-header {
@@ -21,25 +40,115 @@
 .content-one-content-left-header {
     font-size: 48px;
     color: #F9FAF8;
+    max-width: 600px;
 }
 
 .content-one-header-right {
-    display: flex;
+    
     justify-content: space-between;
+    text-align: center;
 }
 
 .content-one-content-left-content {
     font-size: 18px;
     color: #E5E7EB;
+    max-width: 400px;
 }
 
 li {
     color: #F9FAF8;
     list-style: none;
+    float: left;
 }
 
 a {
     text-decoration: none;
     padding: 16px;
+    color: white;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 30px;
+    width: 120px;
+    margin: 0;
+    padding: 10px;
 
 }
+
+.content-two {
+    background-color: white;
+    color: #1F2937;
+}
+
+.content-two-header {
+
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    font-size: 36px;
+    font-weight: 18px;
+
+}
+
+
+.content-two-content {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding: 8px;
+    padding-bottom: 32px;
+    margin: 8px;
+}
+
+
+.container {
+    max-width: 150px;
+    max-height: 150px;
+    justify-content: space-between;
+    gap: 100px;
+    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-color: #3882F6;
+    border-width: thick;
+    border-radius: 50% ;
+ }
+
+ .text {
+    text-align: center;
+ }
+
+ .content-three {
+    background-color: #E5E7EB;
+    display: flex;
+ }
+
+ .content-three-content {
+    padding: 16px;
+    margin: 8px;
+
+ }
+
+ .quote {
+    font-size: 36px;
+    font-style:italic;
+    color: #1F2937;
+    justify-content: space-between;
+    max-width: 100%;
+    word-break: break-all;
+    text-align: center;
+ }
+
+ .author {
+    font-size: 25px;
+    color: #1F2937;
+    font-weight: bold;
+    text-align: right;
+ }
